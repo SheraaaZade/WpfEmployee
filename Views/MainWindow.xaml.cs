@@ -23,6 +23,7 @@ namespace WpfEmployee
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new EmployeeViewModel();
         }
     }
 }
